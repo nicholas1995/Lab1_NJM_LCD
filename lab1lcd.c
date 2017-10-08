@@ -44,7 +44,7 @@ void main(void){
     init_LCD();
     while( BusyXLCD() );
     SetDDRamAddr( 0x40 );
-    putrsXLCD( "Hello World" );
+    putrsXLCD( "HELLO WORLD " );
     while(1){}
     
 }
