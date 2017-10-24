@@ -14,10 +14,6 @@ void DelayFor18TCY( void )
     Delay1TCY();
     Delay1TCY();
     Delay1TCY();
-    Delay1TCY();
-    Delay1TCY();
-    Delay1TCY();
-    Delay1TCY();
     Delay10TCYx(1);
 }
 
@@ -44,7 +40,7 @@ void main(void){
     init_LCD();
     while( BusyXLCD() );
     SetDDRamAddr( 0x40 );
-    putrsXLCD( "HELLO WORLD " );
+    putrsXLCD( "Hello WORLD " );
     while(1){}
     
 }

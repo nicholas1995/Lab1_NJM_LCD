@@ -43,7 +43,7 @@
  #define RS_PIN   LATDbits.LATD1   		/* PORT for RS */
  #define TRIS_RS  TRISDbits.TRISD1    	/* TRIS for RS */
 
- #define E_PIN    LATDbits.LATD0  		/* PORT for D  */
+ #define E_PIN    LATDbits.LATD0  		/* PORT for E  */
  #define TRIS_E   TRISDbits.TRISD0    	/* TRIS for E  */
 
 /* Display ON/OFF Control defines */
